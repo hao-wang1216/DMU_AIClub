@@ -1,0 +1,134 @@
+﻿<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DMU AI Community | 本科生科研与竞赛</title>
+  <meta name="description" content="DMU AI Community  科研与竞赛页：研究方向、论文 Framework 与本科生竞赛。" />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body class="research-page">
+  <header class="site-header" id="top">
+    <div class="container nav-wrap">
+      <a class="brand" href="./index.html">
+        <span class="brand-mark">MVL</span>
+        <span class="brand-text">DMU AI Community</span>
+      </a>
+      <button class="menu-btn" id="menuBtn" aria-label="切换导航">菜单</button>
+      <nav id="nav" class="nav-links">
+        <a href="#directions">研究方向</a>
+        <a href="#frameworks">论文框架</a>
+        <a href="#competitions">本科生竞赛</a>
+        <a href="./index.html">返回门户</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow">Research Group Website</p>
+          <h1>本科生科研与竞赛</h1>
+          <p class="hero-sub">围绕多模态视觉理解与智能系统，展示研究方向、论文框架、实验 Demo 与代表性成果。</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#frameworks">查看论文框架</a>
+            <a class="btn btn-ghost" href="#competitions">查看本科生竞赛</a>
+            <a class="btn btn-ghost" href="./index.html">返回门户</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="directions">
+      <div class="container">
+        <h2>研究方向介绍</h2>
+        <div class="cards three">
+          <article class="card">
+            <h3>Multimodal COD</h3>
+            <p>研究 RGB、Depth、Language 等多模态融合机制，提升复杂背景中伪装目标检测能力。</p>
+            <img class="direction-thumb" src="./assets/research/direction-cod.svg" alt="Multimodal COD direction figure" />
+            <p class="direction-note">典型任务：伪装目标检测、跨模态特征融合、边界细节增强。</p>
+          </article>
+          <article class="card">
+            <h3>Vision-Language Models</h3>
+            <p>探索 VLM 在视觉理解任务中的任务迁移、提示设计与小样本适配能力。</p>
+            <img class="direction-thumb" src="./assets/research/direction-vlm.svg" alt="Vision-Language Models direction figure" />
+            <p class="direction-note">典型任务：Prompt 设计、指令跟随、开放词汇视觉理解。</p>
+          </article>
+          <article class="card">
+            <h3>Reliable Research Engineering</h3>
+            <p>构建规范化实验管线，覆盖复现、消融、可视化与误差分析，保证论文结论可靠。</p>
+            <img class="direction-thumb" src="./assets/research/direction-eng.svg" alt="Research engineering direction figure" />
+            <p class="direction-note">典型任务：实验自动化、日志分析、复现实验平台构建。</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt" id="frameworks">
+      <div class="container">
+        <h2>论文项目 Framework 展示</h2>
+        <div class="framework-list">
+          <article class="card paper-card">
+            <img class="paper-figure" src="./assets/research/framework-placeholder.svg" alt="Framework figure placeholder" />
+            <div class="paper-info">
+              <h3>Paper A: Multimodal Fusion Framework</h3>
+              <p>核心思路：以跨模态对齐模块连接 RGB-D 与语言提示，提升目标边界识别能力。</p>
+              <p>建议补充：方法图、模块说明、损失函数、代码链接。</p>
+              <p><a href="#">Paper</a> · <a href="#">Code</a> · <a href="#">Demo</a></p>
+            </div>
+          </article>
+          <article class="card paper-card">
+            <img class="paper-figure" src="./assets/research/framework-placeholder.svg" alt="Framework figure placeholder" />
+            <div class="paper-info">
+              <h3>Paper B: Efficient VLM Adaptation</h3>
+              <p>核心思路：通过轻量适配层与任务提示模板，降低训练成本并保持跨场景泛化。</p>
+              <p>建议补充：训练流程图、数据构建策略、消融结论。</p>
+              <p><a href="#">Paper</a> · <a href="#">Code</a> · <a href="#">Demo</a></p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="competitions">
+      <div class="container">
+        <h2>本科生竞赛</h2>
+        <div class="cards three">
+          <article class="card">
+            <p class="card-date">2026</p>
+            <h3>多模态视觉竞赛项目</h3>
+            <p>围绕伪装目标检测任务，构建轻量方案并完成公开榜单验证。</p>
+            <p><a href="#">项目链接</a> · <a href="#">技术报告</a></p>
+          </article>
+          <article class="card">
+            <p class="card-date">2025</p>
+            <h3>智能感知挑战赛</h3>
+            <p>聚焦鲁棒性评估与误差分析，形成可复用的竞赛工程模板。</p>
+            <p><a href="#">项目链接</a> · <a href="#">代码仓库</a></p>
+          </article>
+          <article class="card">
+            <p class="card-date">持续更新</p>
+            <h3>竞赛成果归档</h3>
+            <p>按年份维护奖项、队伍成员、方案摘要与复现资料。</p>
+            <p><a href="#">成果列表</a> · <a href="#">加入项目组</a></p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-wrap">
+      <p>© 2026 DMU AI Community </p>
+      <p>Research & Competitions</p>
+    </div>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+</html>
+
+

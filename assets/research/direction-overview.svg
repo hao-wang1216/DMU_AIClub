@@ -1,0 +1,14 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700">
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#d6efe8"/>
+      <stop offset="1" stop-color="#e7f0db"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="700" fill="url(#g1)"/>
+  <rect x="120" y="140" width="200" height="420" rx="20" fill="#84b8a2"/>
+  <rect x="360" y="180" width="220" height="340" rx="20" fill="#5da388"/>
+  <rect x="620" y="220" width="220" height="260" rx="20" fill="#40846e"/>
+  <rect x="880" y="260" width="200" height="180" rx="20" fill="#2f6656"/>
+  <text x="600" y="90" text-anchor="middle" font-size="46" fill="#1f4c40" font-family="Segoe UI, Arial">Research Direction Overview</text>
+</svg>

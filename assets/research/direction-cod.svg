@@ -1,0 +1,8 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#d8efe8"/><stop offset="1" stop-color="#e9f6f2"/></linearGradient></defs>
+  <rect width="800" height="460" fill="url(#g)"/>
+  <circle cx="190" cy="180" r="82" fill="#6ca08d"/>
+  <circle cx="390" cy="220" r="95" fill="#4d8a76"/>
+  <circle cx="590" cy="170" r="75" fill="#2f6e5b"/>
+  <text x="400" y="405" text-anchor="middle" font-size="38" fill="#285b4b" font-family="Segoe UI, Arial">Multimodal COD</text>
+</svg>
