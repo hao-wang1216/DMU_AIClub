@@ -1,0 +1,36 @@
+/* ========================================
+   DMU AI Club — Design Tokens
+   ======================================== */
+
+:root {
+  --color-primary: #165DFF;
+  --color-primary-dark: #0E45CF;
+  --color-primary-light: #EEF3FF;
+  --color-ink: #333333;
+  --color-muted: #666666;
+  --color-bg: #F9FAFB;
+  --color-surface: #FFFFFF;
+  --color-line: #E5E7EB;
+  --color-navbar-bg: rgba(255, 255, 255, 0.95);
+  --radius-sm: 8px;
+  --radius-lg: 12px;
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.06);
+  --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.08);
+  --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.10);
+  --navbar-height: 72px;
+  --transition-fast: 0.2s ease;
+  --transition-smooth: 0.3s ease;
+
+  /* Legacy aliases for backward compat */
+  --bg: var(--color-bg);
+  --surface: var(--color-surface);
+  --ink: var(--color-ink);
+  --muted: var(--color-muted);
+  --brand: var(--color-primary);
+  --brand-strong: var(--color-primary-dark);
+  --accent: #FF6B35;
+  --line: var(--color-line);
+  --radius: var(--radius-lg);
+  --shadow: var(--shadow-md);
+  --header-bg: rgba(255, 255, 255, 0.95);
+}
