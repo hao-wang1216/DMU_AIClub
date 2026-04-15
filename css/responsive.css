@@ -1,0 +1,71 @@
+/* ========================================
+   DMU AI Club — Responsive Styles
+   ======================================== */
+
+@media (max-width: 1280px) {
+  .members-grid-six {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 768px) {
+  .menu-btn {
+    display: inline-block;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .nav-mobile {
+    display: block;
+  }
+
+  .hero {
+    padding: 60px 0 32px;
+  }
+
+  .hero-grid,
+  .join-grid,
+  .cards.two,
+  .cards.three,
+  .cards.four {
+    grid-template-columns: 1fr;
+  }
+
+  .news-item {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .news-date {
+    align-self: flex-start;
+  }
+
+  .paper-card {
+    grid-template-columns: 1fr;
+  }
+
+  .advisor-card {
+    grid-template-columns: 90px 1fr;
+  }
+
+  .members-grid-six {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 480px) {
+  .members-grid-six {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .hero-actions .btn {
+    text-align: center;
+  }
+}
